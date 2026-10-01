@@ -1,14 +1,27 @@
 {
   "settings": {
     "heroTitle": "Your digital communication office",
-    "heroText": "Everything the alliance needs to communicate with one voice: project facts, narrative, templates, toolkits, EU visibility rules and a single entry point for communication requests.",
+    "heroText": "Everything the alliance needs to communicate with one voice: project facts, narrative, templates, toolkits, EU visibility rules and a shared template for communication requests.",
     "mission": "A student-centred, digital and inclusive Open European University to strengthen the European Higher Education Area.",
     "missionSub": "Every OpenEU message should connect back to this line: open access to quality higher education, across borders, leaving no one behind.",
-    "newsletterUrl": "",
-    "decidimUrl": "",
+    "newsletterUrl": "https://openeu.eu/subscribe",
+    "decidimUrl": "https://openeu.eu/",
     "kpiNote": "Illustrative figures. Replace them with the latest WP8 reporting data.",
     "kpiUpdated": "",
-    "requestFormUrl": ""
+    "projectTitle": "The project",
+    "projectSubtitle": "OpenEU European Universities Alliance · Grant Agreement 101177241 · Erasmus+ Lump Sum",
+    "consortiumTitle": "Consortium",
+    "consortiumText": "Ten universities, eight open and distance universities and two face-to-face universities in digital transformation, together serving more than 368,000 students. Coordinated by the Universitat Oberta de Catalunya (UOC).",
+    "partnersTitle": "Associated partners",
+    "partnersText": "",
+    "partnersLabel": "See the associated partners",
+    "partnersUrl": "",
+    "governanceTitle": "Governance",
+    "axesTitle": "Transversal thematic axes",
+    "wpsTitle": "Work packages",
+    "calEmbedsTitle": "OpenEU live calendar",
+    "calEmbedsText": "",
+    "euPackUrl": ""
   },
   "toolkits": [
     {
@@ -16,55 +29,39 @@
       "wp": "WP8",
       "name": "Communication and Dissemination Toolkit",
       "use": "Channels, formats, visibility rules and the request workflow.",
-      "url": "",
+      "url": "https://storage-8.saas.pokecode.net/qqiu83ut3r97vthxxnulze00rztz",
+      "file": null
+    },
+    {
+      "code": "D8.1",
+      "wp": "WP8",
+      "name": "OpenEU communication and dissemination plan",
+      "use": "Communication and dissemination strategy, including the social media strategy, tactics, key messages, key target audiences, and engagement approach.",
+      "url": "https://storage-8.saas.pokecode.net/dgpi8fjftfbn6ivxz8fgvi0q5w91",
       "file": null
     },
     {
       "code": "D7.2",
       "wp": "WP7",
-      "name": "Community Engagement Playbook",
+      "name": "OpenEU Community Engagement Playbook",
       "use": "How to engage students and staff and build the community campus.",
-      "url": "",
+      "url": "https://storage-8.saas.pokecode.net/31vxkaybhiomeqep7ekctnrxecgq",
       "file": null
     },
     {
-      "code": "D6.3",
-      "wp": "WP6",
-      "name": "Mobility Toolkit",
-      "use": "Communicating virtual and hybrid mobility opportunities.",
-      "url": "",
-      "file": null
-    },
-    {
-      "code": "D6.5",
-      "wp": "WP6",
-      "name": "Multilingualism Toolkit",
-      "use": "Language versions and multilingual communication.",
-      "url": "",
-      "file": null
-    },
-    {
-      "code": "D5.3",
-      "wp": "WP5",
-      "name": "Digital Transformation Toolkit",
-      "use": "Digital practices and capacity building across partners.",
-      "url": "",
-      "file": null
-    },
-    {
-      "code": "D3.4",
+      "code": "D3.1",
       "wp": "WP3",
-      "name": "IGEP Toolkit",
+      "name": "OpenEU inclusive gender equality policy",
       "use": "Inclusive language, gender equality and diversity in content.",
-      "url": "",
+      "url": "https://storage-8.saas.pokecode.net/goda3nsz3nueacnrjbgifx1j4gel",
       "file": null
     }
   ],
   "templates": [
     {
-      "name": "Communication Request Form",
-      "note": "Options A, B and C. Also available on the Request tab.",
-      "format": "Form",
+      "name": "Communication request template",
+      "note": "Make a copy in Drive, fill it in and share it with your Communication Officer. Covers options A, B and C.",
+      "format": "Google Docs",
       "url": "",
       "file": null
     },
@@ -143,19 +140,15 @@
   "socials": [
     {
       "name": "LinkedIn",
-      "url": ""
+      "url": "https://www.linkedin.com/company/openeualliance/"
     },
     {
       "name": "Instagram",
-      "url": ""
-    },
-    {
-      "name": "X",
-      "url": ""
+      "url": "https://www.instagram.com/openeualliance/"
     },
     {
       "name": "YouTube",
-      "url": ""
+      "url": "https://www.youtube.com/@OpenEUalliance"
     }
   ],
   "events": [
@@ -237,7 +230,8 @@
       "month": "9",
       "axis": "digital",
       "wps": "WP6",
-      "url": ""
+      "url": "",
+      "year": 2026
     },
     {
       "name": "Day of Persons with Disabilities",
@@ -250,6 +244,31 @@
     {
       "name": "Human Rights Day",
       "date": "2026-12-10",
+      "month": "11",
+      "axis": "values",
+      "wps": "WP8",
+      "url": ""
+    },
+    {
+      "name": "Erasmus Days",
+      "date": "",
+      "month": "9",
+      "year": 2027,
+      "axis": "digital",
+      "wps": "WP6",
+      "url": ""
+    },
+    {
+      "name": "Day of Persons with Disabilities",
+      "date": "2027-12-03",
+      "month": "11",
+      "axis": "values",
+      "wps": "WP3",
+      "url": ""
+    },
+    {
+      "name": "Human Rights Day",
+      "date": "2027-12-10",
       "month": "11",
       "axis": "values",
       "wps": "WP8",
@@ -425,8 +444,8 @@
       "d": "A if your university leads it locally, B if it involves the whole alliance, C if it is part of a WP8 task."
     },
     {
-      "t": "Fill in the Communication Request Form",
-      "d": "As early as you can. Your Communication Officer confirms the timeline and channels."
+      "t": "Fill in the communication request template",
+      "d": "Make a copy of the template in Drive as early as you can and share it with your Communication Officer, who confirms the timeline and channels."
     },
     {
       "t": "Prepare the raw material",
@@ -448,7 +467,7 @@
     },
     {
       "t": "Frame it in five blocks",
-      "d": "Work packages, audiences, channels, narrative and KPIs. Use the brief generated by the form."
+      "d": "Work packages, audiences, channels, narrative and KPIs, following the request template."
     },
     {
       "t": "Adapt to your context",
@@ -581,5 +600,180 @@
       "text": "Have your say on the future of OpenEU. Join the debate on Decidim! {decidim}"
     }
   ],
-  "embeds": []
+  "embeds": [],
+  "universities": [
+    {
+      "name": "UOC · coordinator",
+      "url": ""
+    },
+    {
+      "name": "UAb",
+      "url": ""
+    },
+    {
+      "name": "BU",
+      "url": ""
+    },
+    {
+      "name": "OUC",
+      "url": ""
+    },
+    {
+      "name": "DU",
+      "url": ""
+    },
+    {
+      "name": "FeU",
+      "url": ""
+    },
+    {
+      "name": "HOU",
+      "url": ""
+    },
+    {
+      "name": "OUNL",
+      "url": ""
+    },
+    {
+      "name": "UNED",
+      "url": ""
+    },
+    {
+      "name": "UVT",
+      "url": ""
+    }
+  ],
+  "governance": [
+    {
+      "name": "Rectors' Council",
+      "role": "Governing layer of the alliance"
+    },
+    {
+      "name": "Executive Board",
+      "role": "Strategic direction"
+    },
+    {
+      "name": "Mission Boards",
+      "role": "Education, R+D+I and Community"
+    },
+    {
+      "name": "WP Boards",
+      "role": "Delivery of each work package"
+    },
+    {
+      "name": "Student Council",
+      "role": "Student voice in decisions"
+    },
+    {
+      "name": "OpenEU Secretaria",
+      "role": "Executive office in Barcelona"
+    },
+    {
+      "name": "OpenEU Offices",
+      "role": "One at each partner university"
+    }
+  ],
+  "projectAxes": [
+    {
+      "sdg": "SDG 9 · SDG 4",
+      "title": "Digital transformation and AI in education",
+      "color": "blue"
+    },
+    {
+      "sdg": "SDG 13",
+      "title": "Climate emergency and sustainability",
+      "color": "green"
+    },
+    {
+      "sdg": "SDG 16",
+      "title": "European values and democracy",
+      "color": "pink"
+    }
+  ],
+  "wps": [
+    {
+      "code": "WP1",
+      "name": "Governance and management",
+      "url": ""
+    },
+    {
+      "code": "WP2",
+      "name": "Lifelong learning & Professional GPS",
+      "url": ""
+    },
+    {
+      "code": "WP3",
+      "name": "Inclusion, diversity and equality (IGEP)",
+      "url": ""
+    },
+    {
+      "code": "WP4",
+      "name": "Research and Living Labs (open science)",
+      "url": ""
+    },
+    {
+      "code": "WP5",
+      "name": "Digital capacity building and Think and Do Tank",
+      "url": ""
+    },
+    {
+      "code": "WP6",
+      "name": "Virtual/hybrid mobility and joint degrees",
+      "url": ""
+    },
+    {
+      "code": "WP7",
+      "name": "Engagement, community campus and digital wellbeing",
+      "url": ""
+    },
+    {
+      "code": "WP8",
+      "name": "Communication, dissemination and advocacy",
+      "url": ""
+    }
+  ],
+  "statements": [
+    {
+      "label": "Purpose",
+      "text": "To create the first pan-European Open University, making quality higher education accessible to anyone, anywhere, at any time."
+    },
+    {
+      "label": "Mission",
+      "text": "Establish a learner-centred, inclusive, digital and green open university with a European scope, which empowers individuals to lead their own skills' development for enhancing their employability and widens access to quality higher education and lifelong learning (*Leaving no one behind)."
+    },
+    {
+      "label": "Vision",
+      "text": "To become the pan-European Open University that harnesses digital education for - and with - lifelong learners and communities to make a better world."
+    },
+    {
+      "label": "Positioning",
+      "text": "To be perceived as the undisputed European reference in digital, inclusive and open education, and a catalyst for the transformation of higher education."
+    }
+  ],
+  "axes": [
+    {
+      "id": "digital",
+      "label": "Digital transformation and AI",
+      "color": "blue",
+      "sdg": "SDG 9 · SDG 4"
+    },
+    {
+      "id": "climate",
+      "label": "Climate and sustainability",
+      "color": "green",
+      "sdg": "SDG 13"
+    },
+    {
+      "id": "values",
+      "label": "European values and democracy",
+      "color": "pink",
+      "sdg": "SDG 16"
+    },
+    {
+      "id": "activities",
+      "label": "OpenEU activities",
+      "color": "purple",
+      "sdg": ""
+    }
+  ]
 }
