@@ -1,0 +1,585 @@
+{
+  "settings": {
+    "heroTitle": "Your digital communication office",
+    "heroText": "Everything the alliance needs to communicate with one voice: project facts, narrative, templates, toolkits, EU visibility rules and a single entry point for communication requests.",
+    "mission": "A student-centred, digital and inclusive Open European University to strengthen the European Higher Education Area.",
+    "missionSub": "Every OpenEU message should connect back to this line: open access to quality higher education, across borders, leaving no one behind.",
+    "newsletterUrl": "",
+    "decidimUrl": "",
+    "kpiNote": "Illustrative figures. Replace them with the latest WP8 reporting data.",
+    "kpiUpdated": "",
+    "requestFormUrl": ""
+  },
+  "toolkits": [
+    {
+      "code": "D8.2",
+      "wp": "WP8",
+      "name": "Communication and Dissemination Toolkit",
+      "use": "Channels, formats, visibility rules and the request workflow.",
+      "url": "",
+      "file": null
+    },
+    {
+      "code": "D7.2",
+      "wp": "WP7",
+      "name": "Community Engagement Playbook",
+      "use": "How to engage students and staff and build the community campus.",
+      "url": "",
+      "file": null
+    },
+    {
+      "code": "D6.3",
+      "wp": "WP6",
+      "name": "Mobility Toolkit",
+      "use": "Communicating virtual and hybrid mobility opportunities.",
+      "url": "",
+      "file": null
+    },
+    {
+      "code": "D6.5",
+      "wp": "WP6",
+      "name": "Multilingualism Toolkit",
+      "use": "Language versions and multilingual communication.",
+      "url": "",
+      "file": null
+    },
+    {
+      "code": "D5.3",
+      "wp": "WP5",
+      "name": "Digital Transformation Toolkit",
+      "use": "Digital practices and capacity building across partners.",
+      "url": "",
+      "file": null
+    },
+    {
+      "code": "D3.4",
+      "wp": "WP3",
+      "name": "IGEP Toolkit",
+      "use": "Inclusive language, gender equality and diversity in content.",
+      "url": "",
+      "file": null
+    }
+  ],
+  "templates": [
+    {
+      "name": "Communication Request Form",
+      "note": "Options A, B and C. Also available on the Request tab.",
+      "format": "Form",
+      "url": "",
+      "file": null
+    },
+    {
+      "name": "Press release",
+      "note": "Headline, lead, quotes, boilerplate, EU visibility block.",
+      "format": "DOCX",
+      "url": "",
+      "file": null
+    },
+    {
+      "name": "Newsletter item",
+      "note": "Title, 60-word summary, image, link.",
+      "format": "DOCX",
+      "url": "",
+      "file": null
+    },
+    {
+      "name": "Social media post pack",
+      "note": "Square and story formats with bottom stripe, acronym logo and tag.",
+      "format": "PNG / Figma",
+      "url": "",
+      "file": null
+    },
+    {
+      "name": "Event announcement",
+      "note": "Date, format, audience, registration CTA.",
+      "format": "DOCX",
+      "url": "",
+      "file": null
+    },
+    {
+      "name": "Presentation",
+      "note": "OpenEU slide templates in Arial.",
+      "format": "PPTX",
+      "url": "",
+      "file": null
+    },
+    {
+      "name": "A4 publication",
+      "note": "Two-column layout, running header, EU disclaimer.",
+      "format": "DOCX / INDD",
+      "url": "",
+      "file": null
+    },
+    {
+      "name": "Video end card",
+      "note": "Emblem, \"Co-funded by the European Union\", disclaimer.",
+      "format": "MP4 / PNG",
+      "url": "",
+      "file": null
+    }
+  ],
+  "platforms": [
+    {
+      "name": "Portal OpenEU",
+      "use": "The public front door. Target: 500,000 unique users.",
+      "url": ""
+    },
+    {
+      "name": "Decidim",
+      "use": "Joint Participatory Platform for debate and co-decision.",
+      "url": ""
+    },
+    {
+      "name": "Folio",
+      "use": "Joint Learning Platform for courses and mobility.",
+      "url": ""
+    },
+    {
+      "name": "AI PenPal",
+      "use": "Space for intercultural exchange between learners.",
+      "url": ""
+    }
+  ],
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "url": ""
+    },
+    {
+      "name": "Instagram",
+      "url": ""
+    },
+    {
+      "name": "X",
+      "url": ""
+    },
+    {
+      "name": "YouTube",
+      "url": ""
+    }
+  ],
+  "events": [
+    {
+      "name": "International Day of Education",
+      "date": "2027-01-24",
+      "month": "0",
+      "axis": "digital",
+      "wps": "WP2 · WP5",
+      "url": ""
+    },
+    {
+      "name": "Day of Women and Girls in Science",
+      "date": "2027-02-11",
+      "month": "1",
+      "axis": "values",
+      "wps": "WP3 · WP4",
+      "url": ""
+    },
+    {
+      "name": "Safer Internet Day",
+      "date": "2027-02-09",
+      "month": "1",
+      "axis": "digital",
+      "wps": "WP7",
+      "url": ""
+    },
+    {
+      "name": "International Women's Day",
+      "date": "2027-03-08",
+      "month": "2",
+      "axis": "values",
+      "wps": "WP3",
+      "url": ""
+    },
+    {
+      "name": "Earth Day",
+      "date": "2027-04-22",
+      "month": "3",
+      "axis": "climate",
+      "wps": "WP4",
+      "url": ""
+    },
+    {
+      "name": "Europe Day",
+      "date": "2027-05-09",
+      "month": "4",
+      "axis": "values",
+      "wps": "WP8",
+      "url": ""
+    },
+    {
+      "name": "World Environment Day",
+      "date": "2027-06-05",
+      "month": "5",
+      "axis": "climate",
+      "wps": "WP4 · WP5",
+      "url": ""
+    },
+    {
+      "name": "International Day of Democracy",
+      "date": "2027-09-15",
+      "month": "8",
+      "axis": "values",
+      "wps": "WP7",
+      "url": ""
+    },
+    {
+      "name": "European Day of Languages",
+      "date": "2027-09-26",
+      "month": "8",
+      "axis": "values",
+      "wps": "WP6",
+      "url": ""
+    },
+    {
+      "name": "Erasmus Days",
+      "date": "",
+      "month": "9",
+      "axis": "digital",
+      "wps": "WP6",
+      "url": ""
+    },
+    {
+      "name": "Day of Persons with Disabilities",
+      "date": "2026-12-03",
+      "month": "11",
+      "axis": "values",
+      "wps": "WP3",
+      "url": ""
+    },
+    {
+      "name": "Human Rights Day",
+      "date": "2026-12-10",
+      "month": "11",
+      "axis": "values",
+      "wps": "WP8",
+      "url": ""
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Portal OpenEU unique users",
+      "target": 500000,
+      "current": 182400,
+      "plus": false,
+      "color": "blue",
+      "source": "manual"
+    },
+    {
+      "label": "Social media followers",
+      "target": 10000,
+      "current": 4350,
+      "plus": false,
+      "color": "pink",
+      "source": "manual"
+    },
+    {
+      "label": "Transversal thematic campaigns",
+      "target": 8,
+      "current": 0,
+      "plus": false,
+      "color": "green",
+      "source": "campaigns"
+    },
+    {
+      "label": "High-quality multimedia pieces",
+      "target": 90,
+      "current": 27,
+      "plus": false,
+      "color": "purple",
+      "source": "manual"
+    },
+    {
+      "label": "Media appearances",
+      "target": 500,
+      "current": 164,
+      "plus": true,
+      "color": "blue",
+      "source": "manual"
+    }
+  ],
+  "campaigns": [
+    {
+      "name": "Campaign 01",
+      "done": true
+    },
+    {
+      "name": "Campaign 02",
+      "done": true
+    },
+    {
+      "name": "Campaign 03",
+      "done": false
+    },
+    {
+      "name": "Campaign 04",
+      "done": false
+    },
+    {
+      "name": "Campaign 05",
+      "done": false
+    },
+    {
+      "name": "Campaign 06",
+      "done": false
+    },
+    {
+      "name": "Campaign 07",
+      "done": false
+    },
+    {
+      "name": "Campaign 08",
+      "done": false
+    }
+  ],
+  "values": [
+    {
+      "group": "INTERNAL",
+      "audience": "Students",
+      "promise": "Study with ten European universities without leaving home.",
+      "proof": "Virtual and hybrid mobility, joint degrees, micro-credentials and digital wellbeing.",
+      "wps": "WP2 · WP6 · WP7"
+    },
+    {
+      "group": "INTERNAL",
+      "audience": "Academic staff (PDI)",
+      "promise": "Teach and research in a European open network.",
+      "proof": "Joint programmes, Living Labs, open science and digital capacity building.",
+      "wps": "WP4 · WP5 · WP6"
+    },
+    {
+      "group": "INTERNAL",
+      "audience": "Admin staff (PTGAS/PAS)",
+      "promise": "Be part of building one European university.",
+      "proof": "Digital transformation toolkits, equality training and the community campus.",
+      "wps": "WP3 · WP5 · WP7"
+    },
+    {
+      "group": "EXTERNAL",
+      "audience": "European Commission and policy makers",
+      "promise": "A pan-European reference in digital, open and inclusive education.",
+      "proof": "Think and Do Tank recommendations and evidence from 10 universities and +368,000 students.",
+      "wps": "WP5 · WP8"
+    },
+    {
+      "group": "EXTERNAL",
+      "audience": "Productive sector",
+      "promise": "Skills that match the labour market, for life.",
+      "proof": "Professional GPS, lifelong learning and micro-credentials.",
+      "wps": "WP2"
+    },
+    {
+      "group": "EXTERNAL",
+      "audience": "Society",
+      "promise": "Knowledge that is open to everyone.",
+      "proof": "Open science, Living Labs and public participation through Decidim.",
+      "wps": "WP4 · WP7"
+    }
+  ],
+  "axisMessages": [
+    {
+      "axis": "digital",
+      "headline": "Learning without borders, powered by responsible AI",
+      "body": "OpenEU shows how open universities use digital tools and AI to widen access and improve quality, with the Digital Transformation Toolkit and the Think and Do Tank turning practice into policy."
+    },
+    {
+      "axis": "climate",
+      "headline": "Open science for a planet in emergency",
+      "body": "Living Labs and open research bring universities, citizens and business together on climate solutions, with results shared openly across ten countries."
+    },
+    {
+      "axis": "values",
+      "headline": "Ready to debate our Europe?",
+      "body": "Through Decidim and the community campus, OpenEU students and staff take part in decisions and debate the future of Europe, online and across languages."
+    }
+  ],
+  "voice": [
+    {
+      "k": "Voice",
+      "v": "Institutional but warm, first-person plural: \"we\", \"our alliance\"."
+    },
+    {
+      "k": "Headlines",
+      "v": "Questions or promises of 3 to 8 words. Sentence case."
+    },
+    {
+      "k": "CTAs",
+      "v": "Short imperatives ending in \"!\": Apply now! Register now! Subscribe now!"
+    },
+    {
+      "k": "Emphasis",
+      "v": "Medium weight inside light text. No italics, no underlines, no emoji."
+    },
+    {
+      "k": "Numbers",
+      "v": "Comma thousands with \"+\" for totals: +368,000 students."
+    }
+  ],
+  "tlSteps": [
+    {
+      "t": "Check if it is worth communicating",
+      "d": "A result, a deliverable, a call, an event or a milestone that matters to someone outside your team."
+    },
+    {
+      "t": "Pick the governance option",
+      "d": "A if your university leads it locally, B if it involves the whole alliance, C if it is part of a WP8 task."
+    },
+    {
+      "t": "Fill in the Communication Request Form",
+      "d": "As early as you can. Your Communication Officer confirms the timeline and channels."
+    },
+    {
+      "t": "Prepare the raw material",
+      "d": "Two-line key message, facts and figures, contact person, links, and images with usage rights."
+    },
+    {
+      "t": "Apply the EU visibility checklist",
+      "d": "Emblem, \"Co-funded by the European Union\", OpenEU logo and, where required, the disclaimer."
+    },
+    {
+      "t": "Share the results with WP8",
+      "d": "Reach, participants, media appearances and multimedia produced, so they count toward the KPIs."
+    }
+  ],
+  "cmSteps": [
+    {
+      "t": "Triage incoming requests",
+      "d": "Confirm option A, B or C and who owns the action."
+    },
+    {
+      "t": "Frame it in five blocks",
+      "d": "Work packages, audiences, channels, narrative and KPIs. Use the brief generated by the form."
+    },
+    {
+      "t": "Adapt to your context",
+      "d": "Local language and channels following the Multilingualism Toolkit (D6.5) and the Communication and Dissemination Toolkit (D8.2)."
+    },
+    {
+      "t": "Always add CTAs",
+      "d": "Newsletter subscription, OpenEU social channels and Decidim."
+    },
+    {
+      "t": "Run the zero-tolerance check",
+      "d": "No publication without the EU visibility elements."
+    },
+    {
+      "t": "Log outputs against KPIs",
+      "d": "Followers, portal traffic, media appearances, multimedia pieces and campaigns."
+    },
+    {
+      "t": "Feed the Secretaria",
+      "d": "Send highlights for alliance-wide amplification and the central newsletter."
+    }
+  ],
+  "tlDo": [
+    {
+      "text": "Think about who needs to know, not only what happened"
+    },
+    {
+      "text": "Give facts, names and dates"
+    },
+    {
+      "text": "Send images with usage rights"
+    },
+    {
+      "text": "Mention the work package and the axis"
+    }
+  ],
+  "tlDont": [
+    {
+      "text": "Publishing on your own without the EU visibility elements"
+    },
+    {
+      "text": "Last-minute requests with no material"
+    },
+    {
+      "text": "Jargon and acronyms without explanation"
+    }
+  ],
+  "cmDo": [
+    {
+      "text": "Use the five-block brief for every action"
+    },
+    {
+      "text": "Reuse alliance key messages"
+    },
+    {
+      "text": "Tag partner universities"
+    },
+    {
+      "text": "Report outputs monthly to WP8"
+    }
+  ],
+  "cmDont": [
+    {
+      "text": "Publishing without the zero-tolerance check"
+    },
+    {
+      "text": "Leaving out the CTA"
+    },
+    {
+      "text": "Creating your own versions of the logo"
+    }
+  ],
+  "logos": [
+    {
+      "name": "Vertical · positive",
+      "bg": "white",
+      "src": "_ds/openeu-design-system-a1570afc-4498-471b-b235-60b1c96f57a0/assets/logo/openeu-logo-vertical.png",
+      "file": null
+    },
+    {
+      "name": "Horizontal · positive",
+      "bg": "white",
+      "src": "_ds/openeu-design-system-a1570afc-4498-471b-b235-60b1c96f57a0/assets/logo/openeu-logo-horizontal.png",
+      "file": null
+    },
+    {
+      "name": "Acronym · positive",
+      "bg": "white",
+      "src": "_ds/openeu-design-system-a1570afc-4498-471b-b235-60b1c96f57a0/assets/logo/openeu-acronym.png",
+      "file": null
+    },
+    {
+      "name": "Vertical · negative",
+      "bg": "black",
+      "src": "_ds/openeu-design-system-a1570afc-4498-471b-b235-60b1c96f57a0/assets/logo/openeu-logo-vertical-negative.png",
+      "file": null
+    },
+    {
+      "name": "Horizontal · negative",
+      "bg": "black",
+      "src": "_ds/openeu-design-system-a1570afc-4498-471b-b235-60b1c96f57a0/assets/logo/openeu-logo-horizontal-negative.png",
+      "file": null
+    },
+    {
+      "name": "Acronym · negative",
+      "bg": "black",
+      "src": "_ds/openeu-design-system-a1570afc-4498-471b-b235-60b1c96f57a0/assets/logo/openeu-acronym-negative.png",
+      "file": null
+    }
+  ],
+  "ctas": [
+    {
+      "where": "EMAIL SIGNATURE",
+      "bg": "grey",
+      "text": "OpenEU, The Open European University\nStay in the loop: subscribe to the OpenEU newsletter → {newsletter}"
+    },
+    {
+      "where": "SOCIAL MEDIA POST",
+      "bg": "blue",
+      "text": "Want more stories like this? Subscribe to the OpenEU newsletter! Link in bio."
+    },
+    {
+      "where": "WEB PAGE / ARTICLE END",
+      "bg": "green",
+      "text": "Never miss an OpenEU update. Subscribe now! {newsletter}"
+    },
+    {
+      "where": "PARTICIPATION",
+      "bg": "pink",
+      "text": "Have your say on the future of OpenEU. Join the debate on Decidim! {decidim}"
+    }
+  ],
+  "embeds": []
+}
