@@ -1,7 +1,7 @@
 {
   "settings": {
     "heroTitle": "Your digital communication office",
-    "heroText": "Everything the alliance needs to communicate with one voice: project facts, narrative, templates, toolkits, EU visibility rules and a shared template for communication requests.",
+    "heroText": "Everything the alliance needs to communicate with one voice: project facts, narrative, templates, toolkits, EU visibility rules and a single entry point for communication requests.",
     "mission": "A student-centred, digital and inclusive Open European University to strengthen the European Higher Education Area.",
     "missionSub": "Every OpenEU message should connect back to this line: open access to quality higher education, across borders, leaving no one behind.",
     "newsletterUrl": "https://openeu.eu/subscribe",
@@ -21,7 +21,36 @@
     "wpsTitle": "Work packages",
     "calEmbedsTitle": "OpenEU live calendar",
     "calEmbedsText": "",
-    "euPackUrl": ""
+    "euPackUrl": "",
+    "requestFormUrl": "",
+    "visTitle": "EU visibility checklist",
+    "visSubtitle": "Zero tolerance: nothing funded by the grant goes out without these.",
+    "visQuestion": "What are you publishing?",
+    "visEuHeading": "EU REQUIREMENTS · ZERO TOLERANCE",
+    "visQcHeading": "OPENEU QUALITY CONTROLS",
+    "visReadyTitle": "Ready to publish",
+    "visReadyText": "All EU requirements and OpenEU quality controls are met.",
+    "visReadyQcText": "EU requirements met. Review the OpenEU quality controls before publishing.",
+    "visNotReadyTitle": "Not ready: {n} missing",
+    "visNotReadyText": "This {type} cannot be published until every EU requirement is switched on.",
+    "cofundedLabel": "Mandatory text",
+    "cofundedText": "Co-funded by the European Union",
+    "disclaimerLabel": "Official disclaimer",
+    "disclaimer": "Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or EACEA. Neither the European Union nor the granting authority can be held responsible for them.",
+    "footerText": "Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or EACEA. Neither the European Union nor the granting authority can be held responsible for them.",
+    "footerShowSocials": true,
+    "footerShowEmblem": true,
+    "footerShowLogo": true,
+    "leadTitle": "Lead tasks to follow",
+    "leadText": "Each university leads these tasks, deliverables and milestones. Its communication manager follows them closely, spots news and results early and shares them with the Communication Office.",
+    "projectStart": "2024-12-01",
+    "routeCaption": "CO-RESPONSIBILITY PROTOCOL",
+    "routeTitle": "Routing and governance filter",
+    "routeIntro": "Select the operational scope of this communication request to determine management routing.",
+    "tlContactTitle": "Not sure who your university's communication manager is?",
+    "tlContactText": "The list of communication managers is shared internally with the alliance.",
+    "tlContactLabel": "Find your contact!",
+    "tlContactUrl": ""
   },
   "toolkits": [
     {
@@ -44,7 +73,7 @@
       "code": "D7.2",
       "wp": "WP7",
       "name": "OpenEU Community Engagement Playbook",
-      "use": "How to engage students and staff and build the community campus.",
+      "use": "Communicating virtual and hybrid mobility opportunities.",
       "url": "https://storage-8.saas.pokecode.net/31vxkaybhiomeqep7ekctnrxecgq",
       "file": null
     },
@@ -59,9 +88,9 @@
   ],
   "templates": [
     {
-      "name": "Communication request template",
-      "note": "Make a copy in Drive, fill it in and share it with your Communication Officer. Covers options A, B and C.",
-      "format": "Google Docs",
+      "name": "Communication Request Form",
+      "note": "Options A, B and C. Also available on the Request tab.",
+      "format": "Form",
       "url": "",
       "file": null
     },
@@ -119,12 +148,12 @@
     {
       "name": "Portal OpenEU",
       "use": "The public front door. Target: 500,000 unique users.",
-      "url": ""
+      "url": "https://openeu.eu/processes/community/f/2/posts"
     },
     {
       "name": "Decidim",
       "use": "Joint Participatory Platform for debate and co-decision.",
-      "url": ""
+      "url": "https://openeu.eu/assemblies/work-package-board"
     },
     {
       "name": "Folio",
@@ -132,9 +161,9 @@
       "url": ""
     },
     {
-      "name": "AI PenPal",
-      "use": "Space for intercultural exchange between learners.",
-      "url": ""
+      "name": "CoPs",
+      "use": "Communities of Practice Spaces",
+      "url": "https://openeu.eu/assemblies/cops?locale=en"
     }
   ],
   "socials": [
@@ -230,8 +259,7 @@
       "month": "9",
       "axis": "digital",
       "wps": "WP6",
-      "url": "",
-      "year": 2026
+      "url": ""
     },
     {
       "name": "Day of Persons with Disabilities",
@@ -250,28 +278,21 @@
       "url": ""
     },
     {
-      "name": "Erasmus Days",
-      "date": "",
+      "name": "OpenEU Festival",
+      "date": "2026-10-23",
       "month": "9",
-      "year": 2027,
-      "axis": "digital",
-      "wps": "WP6",
-      "url": ""
+      "year": 2026,
+      "axis": "activities",
+      "wps": "wp7",
+      "url": "https://openeu.eu/assemblies/festival"
     },
     {
-      "name": "Day of Persons with Disabilities",
-      "date": "2027-12-03",
-      "month": "11",
-      "axis": "values",
-      "wps": "WP3",
-      "url": ""
-    },
-    {
-      "name": "Human Rights Day",
-      "date": "2027-12-10",
-      "month": "11",
-      "axis": "values",
-      "wps": "WP8",
+      "name": "Eadtu Conference",
+      "date": "2026-10-28",
+      "month": "9",
+      "year": 2026,
+      "axis": "activities",
+      "wps": "",
       "url": ""
     }
   ],
@@ -444,8 +465,8 @@
       "d": "A if your university leads it locally, B if it involves the whole alliance, C if it is part of a WP8 task."
     },
     {
-      "t": "Fill in the communication request template",
-      "d": "Make a copy of the template in Drive as early as you can and share it with your Communication Officer, who confirms the timeline and channels."
+      "t": "Fill in the Communication Request Form",
+      "d": "As early as you can. Your Communication Officer confirms the timeline and channels."
     },
     {
       "t": "Prepare the raw material",
@@ -467,7 +488,7 @@
     },
     {
       "t": "Frame it in five blocks",
-      "d": "Work packages, audiences, channels, narrative and KPIs, following the request template."
+      "d": "Work packages, audiences, channels, narrative and KPIs. Use the brief generated by the form."
     },
     {
       "t": "Adapt to your context",
@@ -580,9 +601,9 @@
   ],
   "ctas": [
     {
-      "where": "EMAIL SIGNATURE",
+      "where": "APPLICATION FORM",
       "bg": "grey",
-      "text": "OpenEU, The Open European University\nStay in the loop: subscribe to the OpenEU newsletter → {newsletter}"
+      "text": "OpenEU, The Open European University\nStay in the loop for more opportunities: subscribe to the OpenEU newsletter → {newsletter}"
     },
     {
       "where": "SOCIAL MEDIA POST",
@@ -600,47 +621,55 @@
       "text": "Have your say on the future of OpenEU. Join the debate on Decidim! {decidim}"
     }
   ],
-  "embeds": [],
+  "embeds": [
+    {
+      "title": "Download:",
+      "kind": "calendar",
+      "url": "<iframe src=\"https://calendar.google.com/calendar/embed?src=c_48c6cab19d45bb278aa6303b6feec1fb87afd2cdb434d3b4f86685859f01504a%40group.calendar.google.com&ctz=Europe%2FMadrid\" style=\"border: 0\" width=\"800\" height=\"600\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+      "height": 200,
+      "note": "https://calendar.google.com/calendar/embed?src=c_48c6cab19d45bb278aa6303b6feec1fb87afd2cdb434d3b4f86685859f01504a%40group.calendar.google.com&ctz=Europe%2FMadrid"
+    }
+  ],
   "universities": [
     {
       "name": "UOC · coordinator",
-      "url": ""
+      "url": "https://www.uoc.edu/en"
     },
     {
       "name": "UAb",
-      "url": ""
+      "url": "https://portal.uab.pt/?lang=en"
     },
     {
       "name": "BU",
-      "url": ""
+      "url": "https://www.bifrost.is/english/"
     },
     {
       "name": "OUC",
-      "url": ""
+      "url": "https://www.ouc.ac.cy/index.php/en/"
     },
     {
       "name": "DU",
-      "url": ""
+      "url": "https://du.lv/en/home/"
     },
     {
       "name": "FeU",
-      "url": ""
+      "url": "https://www.fernuni-hagen.de/english/"
     },
     {
       "name": "HOU",
-      "url": ""
+      "url": "https://www.eap.gr/en/"
     },
     {
       "name": "OUNL",
-      "url": ""
+      "url": "https://www.ou.nl/en/over-ons"
     },
     {
       "name": "UNED",
-      "url": ""
+      "url": "https://www.uned.es/universidad/inicio/en/"
     },
     {
       "name": "UVT",
-      "url": ""
+      "url": "https://www.uni-vt.bg/eng/"
     }
   ],
   "governance": [
@@ -774,6 +803,1670 @@
       "label": "OpenEU activities",
       "color": "purple",
       "sdg": ""
+    }
+  ],
+  "visContexts": [
+    {
+      "id": "document",
+      "label": "Document / publication",
+      "needsDisclaimer": true
+    },
+    {
+      "id": "platform",
+      "label": "Platform / website",
+      "needsDisclaimer": true
+    },
+    {
+      "id": "video",
+      "label": "Video",
+      "needsDisclaimer": true
+    },
+    {
+      "id": "social",
+      "label": "Social media post",
+      "needsDisclaimer": false
+    },
+    {
+      "id": "event",
+      "label": "Event material",
+      "needsDisclaimer": false
+    }
+  ],
+  "visEu": [
+    {
+      "id": "emblem",
+      "label": "EU emblem included",
+      "detail": "Official file only, clearly visible, not distorted.",
+      "onlyDisclaimer": false
+    },
+    {
+      "id": "cofunded",
+      "label": "\"Co-funded by the European Union\" next to the emblem",
+      "detail": "Written in full, never abbreviated.",
+      "onlyDisclaimer": false
+    },
+    {
+      "id": "logo",
+      "label": "OpenEU logo respects its protection area",
+      "detail": "Clear space equal to the acronym fillet height; minimum digital sizes respected.",
+      "onlyDisclaimer": false
+    },
+    {
+      "id": "disclaimer",
+      "label": "Official disclaimer included",
+      "detail": "Required in documents, platforms and videos.",
+      "onlyDisclaimer": true
+    }
+  ],
+  "visQc": [
+    {
+      "id": "cta",
+      "label": "CTA to the newsletter, social channels or Decidim",
+      "detail": "Every piece ends with an action."
+    },
+    {
+      "id": "lang",
+      "label": "Language versions checked",
+      "detail": "Following the Multilingualism Toolkit (D6.5)."
+    },
+    {
+      "id": "log",
+      "label": "Output logged for WP8 KPI reporting",
+      "detail": "Multimedia piece, campaign or media appearance."
+    }
+  ],
+  "footerLinks": [
+    {
+      "label": "OpenEU website",
+      "url": "https://openeu.eu/"
+    }
+  ],
+  "leadTasks": [
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "1.1.1",
+      "title": "Governance",
+      "type": "Task",
+      "start": 1,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "1.1.2",
+      "title": "Management",
+      "type": "Task",
+      "start": 1,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "1.1.3",
+      "title": "Coordination of seamless performance, interactions and reporting with all WPs, Tasks and Boards",
+      "type": "Task",
+      "start": 1,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "1.1.4",
+      "title": "Risk mitigation and contingency",
+      "type": "Task",
+      "start": 1,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "1.2.1",
+      "title": "OpenEU IQAS (Internal Quality Assurance System)",
+      "type": "Task",
+      "start": 1,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "D1.1",
+      "title": "OpenEU governance framework guidelines and rules and OpenEU project management handbook",
+      "type": "Deliverable",
+      "start": 4,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "MS1",
+      "title": "OpenEU Secretariat established",
+      "type": "Milestone",
+      "start": 6,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "1.2.2",
+      "title": "Career development framework at OpenEU",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "1.4.1",
+      "title": "Synergies and external funding",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "MS2",
+      "title": "Quality Assurance plan designed",
+      "type": "Milestone",
+      "start": 7,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "D1.2",
+      "title": "OpenEU Quality Assurance policy",
+      "type": "Deliverable",
+      "start": 10,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "1.4.2",
+      "title": "Expand the Alliance",
+      "type": "Task",
+      "start": 12,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "1.4.3",
+      "title": "Constitute the legal entity",
+      "type": "Task",
+      "start": 25,
+      "end": 40,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "D1.5",
+      "title": "OpenEU Career Development Framework",
+      "type": "Deliverable",
+      "start": 30,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "MS4",
+      "title": "OpenEU legal entity created",
+      "type": "Milestone",
+      "start": 40,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "1.4.4",
+      "title": "Strategic Plan 2029–2032",
+      "type": "Task",
+      "start": 42,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP1",
+      "code": "D1.6",
+      "title": "OpenEU Strategic Plan 2029-2032",
+      "type": "Deliverable",
+      "start": 48,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP2",
+      "code": "2.3.1",
+      "title": "Data Analitycs for city civil servants with Eurocities",
+      "type": "Task",
+      "start": 3,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP2",
+      "code": "MS7",
+      "title": "Prototype of the Professional GPS designed",
+      "type": "Milestone",
+      "start": 22,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP2",
+      "code": "D2.2",
+      "title": "OpenEU Professional GPS prototype",
+      "type": "Deliverable",
+      "start": 27,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP3",
+      "code": "3.1.1",
+      "title": "OpenEU IGEP (Inclusive Gender Equality Plan)",
+      "type": "Task",
+      "start": 3,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP3",
+      "code": "MS9",
+      "title": "OpenEU IGEP is designed",
+      "type": "Milestone",
+      "start": 10,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP3",
+      "code": "D3.1",
+      "title": "OpenEU Inclusive Gender Equality policy",
+      "type": "Deliverable",
+      "start": 10,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP6",
+      "code": "6.1.1",
+      "title": "Set up Internationalisation and joint actions Office",
+      "type": "Task",
+      "start": 1,
+      "end": 6,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP6",
+      "code": "6.4.1",
+      "title": "Joint Bachelor in Software Development",
+      "type": "Task",
+      "start": 3,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP6",
+      "code": "6.5.2",
+      "title": "OpenEU multilingual virtual classrooms",
+      "type": "Task",
+      "start": 7,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP7",
+      "code": "7.2.1",
+      "title": "Joint Learning Platform",
+      "type": "Task",
+      "start": 3,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP7",
+      "code": "7.2.2",
+      "title": "Joint Participatory Platform (decidim)",
+      "type": "Task",
+      "start": 3,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP7",
+      "code": "7.3.3",
+      "title": "Revitalising rural areas: the OpenEU Rural Agenda",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP7",
+      "code": "7.2.3",
+      "title": "OpenEU Digital Wellbeing",
+      "type": "Task",
+      "start": 12,
+      "end": 46,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP7",
+      "code": "MS20",
+      "title": "First pilot of the Joint Learning Platform",
+      "type": "Milestone",
+      "start": 26,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP7",
+      "code": "D7.3",
+      "title": "Evaluation of the Joint Learning Platform",
+      "type": "Deliverable",
+      "start": 38,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP7",
+      "code": "D7.5",
+      "title": "Pilot of the OpenEU Digital Wellbeing Tool",
+      "type": "Deliverable",
+      "start": 46,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UOC",
+      "wp": "WP8",
+      "code": "8.1.1",
+      "title": "Set up of the OpenEU Communication and Engagement Office",
+      "type": "Task",
+      "start": 1,
+      "end": 6,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP1",
+      "code": "1.3.1",
+      "title": "Ensure privacy and an ethical use of technology",
+      "type": "Task",
+      "start": 1,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP1",
+      "code": "1.3.2",
+      "title": "Implement a green-digital joint infrastructure",
+      "type": "Task",
+      "start": 1,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP1",
+      "code": "1.3.3",
+      "title": "Reduce the environmental footprint of OpenEU",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP1",
+      "code": "MS3",
+      "title": "Ethical and Green Digital plan designed",
+      "type": "Milestone",
+      "start": 7,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP1",
+      "code": "1.2.1",
+      "title": "OpenEU Ethical and Green Digital policy",
+      "type": "Task",
+      "start": 10,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP1",
+      "code": "D1.4",
+      "title": "OpenEU ecological footprint",
+      "type": "Deliverable",
+      "start": 22,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP5",
+      "code": "5.1.1",
+      "title": "Think and Do Tank creation and functioning",
+      "type": "Task",
+      "start": 3,
+      "end": 7,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP5",
+      "code": "5.1.2",
+      "title": "Building the OpenEU Innovation Agenda",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP5",
+      "code": "5.1.3",
+      "title": "Building bridges with stakeholders",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP5",
+      "code": "5.1.4",
+      "title": "Advocacy with EU Initiatives",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP5",
+      "code": "MS14",
+      "title": "TaDT on digital education created",
+      "type": "Milestone",
+      "start": 7,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP5",
+      "code": "MS15",
+      "title": "Design process for setting the OpenEU Innovation Agenda",
+      "type": "Milestone",
+      "start": 7,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP5",
+      "code": "5.2.1",
+      "title": "Bridges with primary and secondary education",
+      "type": "Task",
+      "start": 9,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP5",
+      "code": "5.2.2",
+      "title": "Site visits for IAU HEIs",
+      "type": "Task",
+      "start": 9,
+      "end": 45,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP5",
+      "code": "D5.1",
+      "title": "OpenEU Innovation Agenda on digital education",
+      "type": "Deliverable",
+      "start": 18,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP5",
+      "code": "5.2.3",
+      "title": "Consultancy in digital education to on-campus HEIs",
+      "type": "Task",
+      "start": 30,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UAb",
+      "wp": "WP5",
+      "code": "D5.4",
+      "title": "eBook on the future of digital education",
+      "type": "Deliverable",
+      "start": 48,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "BU",
+      "wp": "WP3",
+      "code": "3.2.2",
+      "title": "Digital readiness training for OpenEU students from the four under-represented groups",
+      "type": "Task",
+      "start": 5,
+      "end": 42,
+      "url": ""
+    },
+    {
+      "uni": "BU",
+      "wp": "WP3",
+      "code": "D3.3",
+      "title": "Report on the student assessment of the digital readiness training",
+      "type": "Deliverable",
+      "start": 34,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "BU",
+      "wp": "WP7",
+      "code": "7.1.1",
+      "title": "Evidence collection and mapping report",
+      "type": "Task",
+      "start": 3,
+      "end": 7,
+      "url": ""
+    },
+    {
+      "uni": "BU",
+      "wp": "WP7",
+      "code": "7.1.3",
+      "title": "Co-creation of strategies for feeding back tasks",
+      "type": "Task",
+      "start": 6,
+      "end": 12,
+      "url": ""
+    },
+    {
+      "uni": "BU",
+      "wp": "WP7",
+      "code": "7.3.2",
+      "title": "Fostering democracy and an active European citizenship: OpenEU Volunteering Programme",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "BU",
+      "wp": "WP7",
+      "code": "MS18",
+      "title": "Internal and external participants involved in Community Engagement Plan",
+      "type": "Milestone",
+      "start": 7,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "BU",
+      "wp": "WP7",
+      "code": "7.3.4",
+      "title": "Building a more international and intercultural EHEA: The OpenEU Festival",
+      "type": "Task",
+      "start": 12,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "BU",
+      "wp": "WP7",
+      "code": "MS19",
+      "title": "Joint Participatory Platform in place",
+      "type": "Milestone",
+      "start": 12,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "BU",
+      "wp": "WP7",
+      "code": "D7.1",
+      "title": "OpenEU Volunteering Programme landing page",
+      "type": "Deliverable",
+      "start": 12,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "BU",
+      "wp": "WP7",
+      "code": "D7.2",
+      "title": "OpenEU Community Engagement Playbook",
+      "type": "Deliverable",
+      "start": 14,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "BU",
+      "wp": "WP7",
+      "code": "7.3.1",
+      "title": "Fostering European employability: OpenEU Online Job Fair",
+      "type": "Task",
+      "start": 15,
+      "end": 46,
+      "url": ""
+    },
+    {
+      "uni": "BU",
+      "wp": "WP7",
+      "code": "D7.4",
+      "title": "Assessment of the first OpenEU Job Fair",
+      "type": "Deliverable",
+      "start": 46,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "OUC",
+      "wp": "WP6",
+      "code": "6.2.3",
+      "title": "Mobility windows in networked programmes",
+      "type": "Task",
+      "start": 1,
+      "end": 12,
+      "url": ""
+    },
+    {
+      "uni": "OUC",
+      "wp": "WP6",
+      "code": "6.3.1",
+      "title": "Staff mobility week",
+      "type": "Task",
+      "start": 12,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "OUC",
+      "wp": "WP6",
+      "code": "6.3.3",
+      "title": "Visiting Teaching Assignments",
+      "type": "Task",
+      "start": 12,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "OUC",
+      "wp": "WP6",
+      "code": "D6.3",
+      "title": "OpenEU Mobility Toolkit",
+      "type": "Deliverable",
+      "start": 30,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "OUC",
+      "wp": "WP8",
+      "code": "8.2.2",
+      "title": "OpenEU social media channels",
+      "type": "Task",
+      "start": 1,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "OUC",
+      "wp": "WP8",
+      "code": "8.2.4",
+      "title": "OpenEU multimedia resources",
+      "type": "Task",
+      "start": 3,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "OUC",
+      "wp": "WP8",
+      "code": "8.3.1",
+      "title": "Communication campaigns",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "OUC",
+      "wp": "WP8",
+      "code": "8.3.3",
+      "title": "OpenEU events",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "DU",
+      "wp": "WP3",
+      "code": "3.2.3",
+      "title": "OpenEU role model campaign targeting the four under-represented groups",
+      "type": "Task",
+      "start": 9,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "DU",
+      "wp": "WP3",
+      "code": "3.3.1",
+      "title": "Co-creation of a guide in gender equality, inclusiveness and intersectionality",
+      "type": "Task",
+      "start": 9,
+      "end": 12,
+      "url": ""
+    },
+    {
+      "uni": "DU",
+      "wp": "WP3",
+      "code": "3.3.2",
+      "title": "Online IGE self-assessment tool",
+      "type": "Task",
+      "start": 13,
+      "end": 19,
+      "url": ""
+    },
+    {
+      "uni": "DU",
+      "wp": "WP3",
+      "code": "D3.2",
+      "title": "Online IGE self-assessment tool",
+      "type": "Deliverable",
+      "start": 19,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "DU",
+      "wp": "WP3",
+      "code": "MS10",
+      "title": "IGE training for staff implemented",
+      "type": "Milestone",
+      "start": 26,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "DU",
+      "wp": "WP7",
+      "code": "7.1.2",
+      "title": "Participative dialogue",
+      "type": "Task",
+      "start": 3,
+      "end": 7,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "2.2.1",
+      "title": "Flexible learning pathways through micro-credentials",
+      "type": "Task",
+      "start": 1,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "2.2.4",
+      "title": "Open Master Programme on climate emergency and sustainability",
+      "type": "Task",
+      "start": 3,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "2.1.1",
+      "title": "Prototype development of the professional GPS",
+      "type": "Task",
+      "start": 3,
+      "end": 27,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "2.3.2",
+      "title": "Data and AI literacy for employees in collaboration with Stifterverband",
+      "type": "Task",
+      "start": 5,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "D2.1",
+      "title": "Joint portfolio of OpenEU micro-credentials needs analysis",
+      "type": "Deliverable",
+      "start": 5,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "2.2.3",
+      "title": "Micro-credential on Generative AI in Higher Education",
+      "type": "Task",
+      "start": 8,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "MS5",
+      "title": "Programmes with Eurocities and Stifterverband co-designed",
+      "type": "Milestone",
+      "start": 12,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "MS6",
+      "title": "Open Master Programme designed",
+      "type": "Milestone",
+      "start": 15,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "MS8",
+      "title": "Joint educational frameworks developed",
+      "type": "Milestone",
+      "start": 24,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "2.3.4",
+      "title": "OpenEU playbook for reskilling and upskilling",
+      "type": "Task",
+      "start": 30,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "D2.3",
+      "title": "Evaluation of the Open Master Programme on climate emergency and sustainability",
+      "type": "Deliverable",
+      "start": 36,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "D2.4",
+      "title": "Micro-credentials on entrepreneurship skills and GenAI developed",
+      "type": "Deliverable",
+      "start": 40,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP2",
+      "code": "D2.5",
+      "title": "OpenEU playbook for reskilling and upskilling programmes",
+      "type": "Deliverable",
+      "start": 46,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP6",
+      "code": "6.4.2",
+      "title": "Joint Micro-Degree Programme on European Values and Democracy",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "FeU",
+      "wp": "WP6",
+      "code": "D6.4",
+      "title": "Assessment of the 1st edition of the Joint Micro-Degree Programme on European Values and Democracy",
+      "type": "Deliverable",
+      "start": 36,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "HOU",
+      "wp": "WP3",
+      "code": "3.2.1",
+      "title": "Interactive online roadmap of access pathways and success resources",
+      "type": "Task",
+      "start": 5,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "HOU",
+      "wp": "WP3",
+      "code": "3.3.3",
+      "title": "IGE training for staff",
+      "type": "Task",
+      "start": 20,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "HOU",
+      "wp": "WP3",
+      "code": "3.1.2",
+      "title": "OpenEU IGEP Toolkit",
+      "type": "Task",
+      "start": 36,
+      "end": 46,
+      "url": ""
+    },
+    {
+      "uni": "HOU",
+      "wp": "WP3",
+      "code": "D3.4",
+      "title": "OpenEU IGEP Toolkit",
+      "type": "Deliverable",
+      "start": 46,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "HOU",
+      "wp": "WP4",
+      "code": "4.2.1",
+      "title": "Skills training for PhD students",
+      "type": "Task",
+      "start": 1,
+      "end": 46,
+      "url": ""
+    },
+    {
+      "uni": "HOU",
+      "wp": "WP4",
+      "code": "4.2.2",
+      "title": "Doctoral stays",
+      "type": "Task",
+      "start": 1,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "HOU",
+      "wp": "WP4",
+      "code": "4.2.3",
+      "title": "Joint Summer and Winter schools",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "HOU",
+      "wp": "WP4",
+      "code": "4.2.4",
+      "title": "Joint Doctorate agreements",
+      "type": "Task",
+      "start": 6,
+      "end": 46,
+      "url": ""
+    },
+    {
+      "uni": "HOU",
+      "wp": "WP4",
+      "code": "D4.2",
+      "title": "Report on the status of the OpenEU PhD student Community",
+      "type": "Deliverable",
+      "start": 22,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "HOU",
+      "wp": "WP4",
+      "code": "MS13",
+      "title": "Five joint doctorate agreements in place",
+      "type": "Milestone",
+      "start": 36,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "HOU",
+      "wp": "WP4",
+      "code": "D4.5",
+      "title": "OpenEU joint doctorate programme",
+      "type": "Deliverable",
+      "start": 48,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "4.1.1",
+      "title": "Complex SDG problem definition: Organization of ten thematic open online or blended research workshops",
+      "type": "Task",
+      "start": 1,
+      "end": 12,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "4.3.3",
+      "title": "Open infrastructures",
+      "type": "Task",
+      "start": 2,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "4.3.4",
+      "title": "Public engagement and citizen science",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "4.3.5",
+      "title": "Responsible research assessment",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "4.3.1",
+      "title": "Open Access",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "4.3.2",
+      "title": "FAIR Data",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "D4.1",
+      "title": "OpenEU Open Science and Innovation policy",
+      "type": "Deliverable",
+      "start": 10,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "MS11",
+      "title": "Open Science and Innovation plan defined",
+      "type": "Milestone",
+      "start": 10,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "4.1.2",
+      "title": "Co-creation of solutions: Organization of five co-creation events for scientists, citizens, students and societal stakeholders",
+      "type": "Task",
+      "start": 13,
+      "end": 24,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "MS12",
+      "title": "Five collaboration agreements with societal stakeholders completed",
+      "type": "Milestone",
+      "start": 22,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "D4.3",
+      "title": "Report on the co-creation process for educational prototypes",
+      "type": "Deliverable",
+      "start": 24,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "4.1.3",
+      "title": "Seed-funding programme",
+      "type": "Task",
+      "start": 25,
+      "end": 46,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "4.1.4",
+      "title": "Living action research project",
+      "type": "Task",
+      "start": 42,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP4",
+      "code": "D4.4",
+      "title": "Action research report",
+      "type": "Deliverable",
+      "start": 48,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP5",
+      "code": "D5.2",
+      "title": "Report on the first outreach events with the local education sector",
+      "type": "Deliverable",
+      "start": 24,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP8",
+      "code": "8.3.4",
+      "title": "Participation in the organisation of international conferences",
+      "type": "Task",
+      "start": 3,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "OUNL",
+      "wp": "WP8",
+      "code": "8.3.2",
+      "title": "Showcase the work of OpenEU",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP2",
+      "code": "2.2.2",
+      "title": "Entrepreneurial skills",
+      "type": "Task",
+      "start": 8,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP3",
+      "code": "3.2.4",
+      "title": "The OpenEU Mentoring Programme targeting the four under-represented groups",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "6.1.2",
+      "title": "OpenEU mobility framework",
+      "type": "Task",
+      "start": 3,
+      "end": 12,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "6.1.3",
+      "title": "OpenEU joint degrees framework",
+      "type": "Task",
+      "start": 3,
+      "end": 12,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "6.1.4",
+      "title": "Technologies for Erasmus without Papers",
+      "type": "Task",
+      "start": 3,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "6.2.1",
+      "title": "Embedded mobility within a course",
+      "type": "Task",
+      "start": 4,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "6.2.2",
+      "title": "Exchange mobility for individual students",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "6.2.4",
+      "title": "Embedded mobility in joint programmes and degrees",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "6.5.1",
+      "title": "OpenEU Language Learning Spaces to reinforcing the multilevel networking within the Alliance",
+      "type": "Task",
+      "start": 7,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "D6.1",
+      "title": "OpenEU mobility and joint degrees frameworks",
+      "type": "Deliverable",
+      "start": 12,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "MS17",
+      "title": "Joint Programmes Designed",
+      "type": "Milestone",
+      "start": 12,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "6.3.2",
+      "title": "Job Shadowing",
+      "type": "Task",
+      "start": 12,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "D6.2",
+      "title": "Assessment of the 1st edition of the Joint Bachelor in Software Development",
+      "type": "Deliverable",
+      "start": 24,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "6.4.3",
+      "title": "Co-creating the agenda for post-2028 launch of OpenEU joint degrees",
+      "type": "Task",
+      "start": 40,
+      "end": 46,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP6",
+      "code": "D6.5",
+      "title": "OpenEU Multilingualism Toolkit",
+      "type": "Deliverable",
+      "start": 48,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UNED",
+      "wp": "WP8",
+      "code": "8.2.1",
+      "title": "OpenEU Portal",
+      "type": "Task",
+      "start": 1,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP2",
+      "code": "2.3.3",
+      "title": "Human Resources Technologies for the Future in collaboration with the Bulgarian Industrial Association",
+      "type": "Task",
+      "start": 24,
+      "end": 30,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP2",
+      "code": "2.1.2",
+      "title": "Development and launch of the GPS for three countries",
+      "type": "Task",
+      "start": 28,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP5",
+      "code": "5.3.1",
+      "title": "Preparation phase and strategic reflection",
+      "type": "Task",
+      "start": 3,
+      "end": 18,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP5",
+      "code": "5.3.2",
+      "title": "Institutional action plans",
+      "type": "Task",
+      "start": 18,
+      "end": 36,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP5",
+      "code": "5.3.3",
+      "title": "Skills development for staff",
+      "type": "Task",
+      "start": 24,
+      "end": 36,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP5",
+      "code": "MS16",
+      "title": "Pilots for Digital Education Transformation: test in practise",
+      "type": "Milestone",
+      "start": 36,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP5",
+      "code": "5.3.4",
+      "title": "Evaluation of the pilot projects",
+      "type": "Task",
+      "start": 37,
+      "end": 42,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP5",
+      "code": "5.3.5",
+      "title": "Digital Transformation Toolkit",
+      "type": "Task",
+      "start": 37,
+      "end": 42,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP5",
+      "code": "D5.3",
+      "title": "Digital Transformation Toolkit",
+      "type": "Deliverable",
+      "start": 42,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP8",
+      "code": "8.1.2",
+      "title": "Establish the coordination and feedback mechanisms",
+      "type": "Task",
+      "start": 1,
+      "end": 6,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP8",
+      "code": "8.1.3",
+      "title": "OpenEU Communication and Dissemination Plan",
+      "type": "Task",
+      "start": 1,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP8",
+      "code": "8.1.4",
+      "title": "OpenEU Communication and Dissemination Toolkit",
+      "type": "Task",
+      "start": 1,
+      "end": 12,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP8",
+      "code": "8.4.1",
+      "title": "Advocacy actions",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP8",
+      "code": "8.4.2",
+      "title": "Sharing the vision of digital learning",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP8",
+      "code": "8.4.3",
+      "title": "Media advocacy",
+      "type": "Task",
+      "start": 6,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP8",
+      "code": "8.2.3",
+      "title": "OpenEU Newsletter",
+      "type": "Task",
+      "start": 9,
+      "end": 48,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP8",
+      "code": "D8.1",
+      "title": "OpenEU Communication and Dissemination Plan",
+      "type": "Deliverable",
+      "start": 10,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP8",
+      "code": "D8.2",
+      "title": "Communication and Dissemination Toolkit",
+      "type": "Deliverable",
+      "start": 12,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP8",
+      "code": "MS21",
+      "title": "Advocacy strategy for digital learning designed",
+      "type": "Milestone",
+      "start": 12,
+      "end": 0,
+      "url": ""
+    },
+    {
+      "uni": "UVT",
+      "wp": "WP8",
+      "code": "D8.3",
+      "title": "Final report and good practices on communication and dissemination for European Alliances",
+      "type": "Deliverable",
+      "start": 48,
+      "end": 0,
+      "url": ""
+    }
+  ],
+  "routeOptions": [
+    {
+      "letter": "A",
+      "title": "Partner-Led Initiative (Local leadership)",
+      "color": "blue",
+      "text": "The initiative is owned or led by a single alliance member. This applies to university-led sub-tasks, or actions localized to a specific campus, or initiatives that rely primarily on local resources.",
+      "example": "Winter School (HOU) | EADTU Meeting (OUNL) | German courses (Fern)",
+      "rule": "This request must be routed to and executed by your local University's Decentralised Communications Office. The Central Unit will provide only secondary amplification once assets are fully ready."
+    },
+    {
+      "letter": "B",
+      "title": "Joint Alliance-Wide Initiative",
+      "color": "pink",
+      "text": "The initiative directly impacts all 10 partners simultaneously (e.g., joint degree programme, alliance-wide governance, global branding, EU institutional reporting).",
+      "example": "",
+      "rule": "This request will be co-managed between the Local Office and the central unit. The Central-unit will help to cross-coordinate assets with all 10 partner hubs."
+    },
+    {
+      "letter": "C",
+      "title": "Task linked to cooperation with WP8",
+      "color": "green",
+      "text": "This proposal is included in the DoA or in the agreements that require the direct intervention of a sub-task defined in the WP8 list.",
+      "example": "",
+      "rule": "If in this request the WP8 task required has not received the information, the central unit will be responsible for forwarding the request to the corresponding WP8 task leader."
     }
   ]
 }
