@@ -13,7 +13,7 @@
     "consortiumTitle": "Consortium",
     "consortiumText": "Ten universities, eight open and distance universities and two face-to-face universities in digital transformation, together serving more than 368,000 students. Coordinated by the Universitat Oberta de Catalunya (UOC).",
     "partnersTitle": "Associated partners",
-    "partnersText": "",
+    "partnersText": "Universities, associations, networks and organisations that cooperate with OpenEU beyond the ten partner universities.",
     "partnersLabel": "See the associated partners",
     "partnersUrl": "",
     "governanceTitle": "Governance",
@@ -36,8 +36,8 @@
     "cofundedLabel": "Mandatory text",
     "cofundedText": "Co-funded by the European Union",
     "disclaimerLabel": "Official disclaimer",
-    "disclaimer": "Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or EACEA. Neither the European Union nor the granting authority can be held responsible for them.",
-    "footerText": "Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or EACEA. Neither the European Union nor the granting authority can be held responsible for them.",
+    "disclaimer": "Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.",
+    "footerText": "Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.",
     "footerShowSocials": true,
     "footerShowEmblem": true,
     "footerShowLogo": true,
@@ -48,9 +48,46 @@
     "routeTitle": "Routing and governance filter",
     "routeIntro": "Select the operational scope of this communication request to determine management routing.",
     "tlContactTitle": "Not sure who your university's communication manager is?",
-    "tlContactText": "The list of communication managers is shared internally with the alliance.",
+    "tlContactText": "",
     "tlContactLabel": "Find your contact!",
-    "tlContactUrl": ""
+    "tlContactUrl": "https://docs.google.com/spreadsheets/d/1423b6XIcNI8d1Kh_mKWQMANCuOm-rbMuCo71TFVI8xY/edit?gid=0#gid=0",
+    "tx_common_1u706hr": "Digital Communication Office",
+    "tx_common_8tc2jj": "Subscribe to the newsletter!",
+    "show_project": true,
+    "show_narrative": true,
+    "show_roles": true,
+    "show_kpis": true,
+    "show_visibility": true,
+    "show_calendar": true,
+    "show_toolkits": true,
+    "show_brand": true,
+    "navOrder": [
+      "office",
+      "project",
+      "narrative",
+      "roles",
+      "calendar",
+      "toolkits",
+      "brand",
+      "visibility",
+      "kpis"
+    ],
+    "navLabel_office": "Office",
+    "navLabel_project": "Project",
+    "navLabel_narrative": "Narrative",
+    "navLabel_roles": "Role guides",
+    "navLabel_kpis": "KPIs",
+    "navLabel_visibility": "EU visibility",
+    "navLabel_calendar": "Calendar",
+    "navLabel_toolkits": "Toolkits & templates",
+    "navLabel_brand": "Brand kit",
+    "heroTag": "OpenEU · Work Package 8",
+    "heroIllustration": "browser-window",
+    "mapTitle": "OpenEU partners across Europe",
+    "mapText": "OpenEU builds a reliable and sustainable cooperation between partners and regions: universities, university associations and non-academic partners.",
+    "mapImage": "",
+    "mapDownload": "Download the map (PNG)",
+    "partnersCaption": "BEYOND THE CONSORTIUM"
   },
   "toolkits": [
     {
@@ -89,38 +126,23 @@
   "templates": [
     {
       "name": "Communication Request Form",
-      "note": "Options A, B and C. Also available on the Request tab.",
+      "note": "EXECUTIVE BRIEFING & COMMUNICATION REQUEST FORM",
       "format": "Form",
-      "url": "",
-      "file": null
-    },
-    {
-      "name": "Press release",
-      "note": "Headline, lead, quotes, boilerplate, EU visibility block.",
-      "format": "DOCX",
-      "url": "",
-      "file": null
-    },
-    {
-      "name": "Newsletter item",
-      "note": "Title, 60-word summary, image, link.",
-      "format": "DOCX",
-      "url": "",
+      "url": "https://docs.google.com/document/d/1XI1p44PGHWZRS940bxBu6iwv8wFzcqIwx7j0I0zaKk8/edit?tab=t.0",
       "file": null
     },
     {
       "name": "Social media post pack",
       "note": "Square and story formats with bottom stripe, acronym logo and tag.",
-      "format": "PNG / Figma",
-      "url": "",
+      "format": "Canva",
+      "url": "https://canva.link/5nzda1np58ldbz1",
       "file": null
     },
     {
-      "name": "Event announcement",
-      "note": "Date, format, audience, registration CTA.",
-      "format": "DOCX",
-      "url": "",
-      "file": null
+      "name": "Video Guidelines for social media",
+      "note": "Recording environment conditions, tips and equipment setup\n",
+      "format": "DOC",
+      "url": "https://docs.google.com/document/d/1aprMaxBSCbsnxGf9aOt4OtLGgJRpxoQS68z08RGesk8/edit?tab=t.0"
     },
     {
       "name": "Presentation",
@@ -142,6 +164,12 @@
       "format": "MP4 / PNG",
       "url": "",
       "file": null
+    },
+    {
+      "name": "OpenEU Glossary",
+      "note": "Entity and Partner Acronyms, Policies concepts, others.",
+      "format": "PDF",
+      "url": "https://drive.google.com/drive/folders/14dt4285gj8H0ICBDyk6KQqo5hzKX2O-0"
     }
   ],
   "platforms": [
@@ -300,7 +328,7 @@
     {
       "label": "Portal OpenEU unique users",
       "target": 500000,
-      "current": 182400,
+      "current": 0,
       "plus": false,
       "color": "blue",
       "source": "manual"
@@ -308,7 +336,7 @@
     {
       "label": "Social media followers",
       "target": 10000,
-      "current": 4350,
+      "current": 1800,
       "plus": false,
       "color": "pink",
       "source": "manual"
@@ -341,7 +369,7 @@
   "campaigns": [
     {
       "name": "Campaign 01",
-      "done": true
+      "done": false
     },
     {
       "name": "Campaign 02",
@@ -458,57 +486,53 @@
   "tlSteps": [
     {
       "t": "Check if it is worth communicating",
-      "d": "A result, a deliverable, a call, an event or a milestone that matters to someone outside your team."
+      "d": "Identify if you have a relevant outcome. Does it involve a result, a deliverable, an open call, an event, or a milestone that matters to an audience outside your direct team?"
     },
     {
-      "t": "Pick the governance option",
-      "d": "A if your university leads it locally, B if it involves the whole alliance, C if it is part of a WP8 task."
+      "t": "Engage with your Communication Manager",
+      "d": "Keep your local team informed. If your action is described in the Description of the Action (DoA) and requires involvement from WP8, contact the relevant person directly and the Secretariat, always keeping your institution's Communication Manager in CC."
     },
     {
-      "t": "Fill in the Communication Request Form",
-      "d": "As early as you can. Your Communication Officer confirms the timeline and channels."
+      "t": "Draft a Communication Brief",
+      "d": "Do this as early as possible. Outline your communication needs using the provided Briefing Template. Your Communication Manager will review it and confirm the final timeline and channels."
     },
     {
       "t": "Prepare the raw material",
-      "d": "Two-line key message, facts and figures, contact person, links, and images with usage rights."
+      "d": "Gather the essential that could help design a good communication strategy. Two-line key message, facts and figures, contact person, links, and images with usage rights. "
     },
     {
       "t": "Apply the EU visibility checklist",
       "d": "Emblem, \"Co-funded by the European Union\", OpenEU logo and, where required, the disclaimer."
     },
     {
-      "t": "Share the results with WP8",
-      "d": "Reach, participants, media appearances and multimedia produced, so they count toward the KPIs."
+      "t": "Feed the Secretaria + WP8",
+      "d": "Regularly share key highlights and updates for alliance-wide amplification and inclusion in the central OpenEU newsletter."
     }
   ],
   "cmSteps": [
     {
-      "t": "Triage incoming requests",
-      "d": "Confirm option A, B or C and who owns the action."
+      "t": "Triage and delegate",
+      "d": "Monitor initiatives led by your university. Evaluate communication requirements and determine ownership. If necessary, refer requests to the appropriate person or institution."
     },
     {
-      "t": "Frame it in five blocks",
-      "d": "Work packages, audiences, channels, narrative and KPIs. Use the brief generated by the form."
+      "t": "Create a Communication Brief",
+      "d": "Outline the core elements: Work Packages involved, target audiences, channels, narratives, and KPIs. You can use the provided Briefing Template."
     },
     {
       "t": "Adapt to your context",
-      "d": "Local language and channels following the Multilingualism Toolkit (D6.5) and the Communication and Dissemination Toolkit (D8.2)."
+      "d": "Tailor any communication you generate or receive to your local language, cultural context, and preferred channels."
     },
     {
-      "t": "Always add CTAs",
-      "d": "Newsletter subscription, OpenEU social channels and Decidim."
+      "t": "Drive community growth (Always include CTAs)",
+      "d": "Every communication effort should aim to expand the OpenEU community. Always include in all supports (forms, website, workshops, eg) Calls to Action (CTAs)  directing audiences to subscribe to the newsletter, and follow OpenEU social channels."
     },
     {
       "t": "Run the zero-tolerance check",
-      "d": "No publication without the EU visibility elements."
+      "d": "Ensure compliance: no materials can be published without the mandatory EU visibility elements and logos."
     },
     {
-      "t": "Log outputs against KPIs",
-      "d": "Followers, portal traffic, media appearances, multimedia pieces and campaigns."
-    },
-    {
-      "t": "Feed the Secretaria",
-      "d": "Send highlights for alliance-wide amplification and the central newsletter."
+      "t": "Feed the Secretaria + WP8",
+      "d": "Regularly share key highlights and updates from your university for alliance-wide amplification and inclusion in the central OpenEU newsletter."
     }
   ],
   "tlDo": [
@@ -538,16 +562,7 @@
   ],
   "cmDo": [
     {
-      "text": "Use the five-block brief for every action"
-    },
-    {
-      "text": "Reuse alliance key messages"
-    },
-    {
-      "text": "Tag partner universities"
-    },
-    {
-      "text": "Report outputs monthly to WP8"
+      "text": "Use fully licensed materials, comply with your university's GDPR rules, and verify third-party distribution rights before sharing content."
     }
   ],
   "cmDont": [
@@ -556,9 +571,6 @@
     },
     {
       "text": "Leaving out the CTA"
-    },
-    {
-      "text": "Creating your own versions of the logo"
     }
   ],
   "logos": [
@@ -822,14 +834,24 @@
       "needsDisclaimer": true
     },
     {
+      "label": "Reel ",
+      "needsDisclaimer": false,
+      "id": "visContexts-muproe8h"
+    },
+    {
       "id": "social",
       "label": "Social media post",
       "needsDisclaimer": false
     },
     {
       "id": "event",
-      "label": "Event material",
-      "needsDisclaimer": false
+      "label": "Printed material",
+      "needsDisclaimer": true
+    },
+    {
+      "label": "Merchandising",
+      "needsDisclaimer": false,
+      "id": "visContexts-muprq83b"
     }
   ],
   "visEu": [
@@ -863,11 +885,6 @@
       "id": "cta",
       "label": "CTA to the newsletter, social channels or Decidim",
       "detail": "Every piece ends with an action."
-    },
-    {
-      "id": "lang",
-      "label": "Language versions checked",
-      "detail": "Following the Multilingualism Toolkit (D6.5)."
     },
     {
       "id": "log",
@@ -2448,8 +2465,8 @@
       "letter": "A",
       "title": "Partner-Led Initiative (Local leadership)",
       "color": "blue",
-      "text": "The initiative is owned or led by a single alliance member. This applies to university-led sub-tasks, or actions localized to a specific campus, or initiatives that rely primarily on local resources.",
-      "example": "Winter School (HOU) | EADTU Meeting (OUNL) | German courses (Fern)",
+      "text": "The initiative is led by a single alliance member. This applies to university-led sub-tasks, or actions localized to a campus, or initiatives that rely primarily on local resources.",
+      "example": "Winter School (HOU) | German courses (Fern)",
       "rule": "This request must be routed to and executed by your local University's Decentralised Communications Office. The Central Unit will provide only secondary amplification once assets are fully ready."
     },
     {
@@ -2457,7 +2474,7 @@
       "title": "Joint Alliance-Wide Initiative",
       "color": "pink",
       "text": "The initiative directly impacts all 10 partners simultaneously (e.g., joint degree programme, alliance-wide governance, global branding, EU institutional reporting).",
-      "example": "",
+      "example": "Joint Bachelor Degree (UOC) ",
       "rule": "This request will be co-managed between the Local Office and the central unit. The Central-unit will help to cross-coordinate assets with all 10 partner hubs."
     },
     {
@@ -2465,8 +2482,69 @@
       "title": "Task linked to cooperation with WP8",
       "color": "green",
       "text": "This proposal is included in the DoA or in the agreements that require the direct intervention of a sub-task defined in the WP8 list.",
-      "example": "",
+      "example": "Tadt Podcast (UAb) | Conference Eadtu (OUNL) | Wider campaign (OUC)",
       "rule": "If in this request the WP8 task required has not received the information, the central unit will be responsible for forwarding the request to the corresponding WP8 task leader."
+    }
+  ],
+  "officeCards": [
+    {
+      "title": "I'm a task leader and need to communicate",
+      "text": "A result, an event, a call or a deliverable: what to prepare and who to talk to.",
+      "cta": "Open the guide →",
+      "target": "roles-tl",
+      "url": "",
+      "illustration": "folder-documents"
+    },
+    {
+      "title": "I'm a communication manager",
+      "text": "Triage requests, adapt messages locally, check visibility and report against KPIs.",
+      "cta": "Open the guide →",
+      "target": "roles-cm",
+      "url": "",
+      "illustration": "laptop-video-call"
+    },
+    {
+      "title": "Prepare a communication request",
+      "text": "Copy the request template in Drive and choose option A, B or C.",
+      "cta": "Go to the template →",
+      "target": "toolkits",
+      "url": "",
+      "illustration": "arrow"
+    }
+  ],
+  "glanceStats": [
+    {
+      "value": "10",
+      "label": "Universities in the consortium"
+    },
+    {
+      "value": "+368,000",
+      "label": "Students"
+    },
+    {
+      "value": "8",
+      "label": "Work packages"
+    },
+    {
+      "value": "3",
+      "label": "Transversal thematic axes"
+    }
+  ],
+  "publishList": [
+    {
+      "text": "EU emblem included"
+    },
+    {
+      "text": "\"Co-funded by the European Union\" next to it"
+    },
+    {
+      "text": "OpenEU logo with its protection area"
+    },
+    {
+      "text": "Official disclaimer in documents, platforms and videos"
+    },
+    {
+      "text": "A CTA to the newsletter, social channels or Decidim"
     }
   ]
 }
