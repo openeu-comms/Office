@@ -41,8 +41,8 @@
     "footerShowSocials": true,
     "footerShowEmblem": true,
     "footerShowLogo": true,
-    "leadTitle": "Lead tasks to follow",
-    "leadText": "Each university leads these tasks, deliverables and milestones. Its communication manager follows them closely, spots news and results early and shares them with the Communication Office.",
+    "leadTitle": "Lead sub-tasks to follow",
+    "leadText": "Each university leads these sub-tasks, deliverables and milestones. Its communication manager follows them closely, spots news and results early and shares them with the Communication Office.",
     "projectStart": "2024-12-01",
     "routeCaption": "CO-RESPONSIBILITY PROTOCOL",
     "routeTitle": "Routing and governance filter",
@@ -56,7 +56,7 @@
     "show_project": true,
     "show_narrative": true,
     "show_roles": true,
-    "show_kpis": true,
+    "show_kpis": false,
     "show_visibility": true,
     "show_calendar": true,
     "show_toolkits": true,
@@ -72,7 +72,7 @@
       "visibility",
       "kpis"
     ],
-    "navLabel_office": "Office",
+    "navLabel_office": "Digital Communication Office",
     "navLabel_project": "Alliance",
     "navLabel_narrative": "Narrative",
     "navLabel_roles": "Role guides",
@@ -105,7 +105,18 @@
     "euDlLabel": "Download PNG",
     "euPackLabel": "All formats (EPS, CMYK, JPEG) →",
     "foldersTitle": "Partner logos",
-    "foldersText": "Download the logos of the partner universities and associated partners. Use them only as agreed with each institution."
+    "foldersText": "Download the logos of the partner universities and associated partners. Use them only as agreed with each institution.",
+    "leadPlaceholder": "Search by code, title or WP (e.g. 7.3, Festival, WP8)",
+    "leadNoResults": "Nothing matches your search.",
+    "leadAllLabel": "All",
+    "leadTaskLabel": "Sub-task",
+    "leadTasksLabel": "Sub-tasks",
+    "leadDelLabel": "Deliverable",
+    "leadDelsLabel": "Deliverables",
+    "leadMsLabel": "Milestone",
+    "leadMssLabel": "Milestones",
+    "leadDueLabel": "Due",
+    "leadEmptyLabel": "No lead sub-tasks"
   },
   "toolkits": [
     {
@@ -143,7 +154,7 @@
   ],
   "templates": [
     {
-      "name": "Communication Request Form",
+      "name": "Executive briefing & Communication request form",
       "note": "EXECUTIVE BRIEFING & COMMUNICATION REQUEST FORM",
       "format": "Form",
       "url": "https://docs.google.com/document/d/1XI1p44PGHWZRS940bxBu6iwv8wFzcqIwx7j0I0zaKk8/edit?tab=t.0",
@@ -188,13 +199,6 @@
       "note": "Entity and Partner Acronyms, Policies concepts, others.",
       "format": "PDF",
       "url": "https://drive.google.com/drive/folders/14dt4285gj8H0ICBDyk6KQqo5hzKX2O-0"
-    },
-    {
-      "name": "OpenEU brochure 2026",
-      "note": "Alliance presentation: mission, challenges, thematic priorities, key figures and partners.",
-      "format": "PDF",
-      "url": "assets/docs/openeu-brochure-2026.pdf",
-      "file": null
     }
   ],
   "platforms": [
@@ -349,11 +353,47 @@
       "url": ""
     },
     {
-      "name": "",
-      "date": "",
+      "name": "Launching Winter School 2026",
+      "date": "2026-10-08",
       "month": "9",
       "year": 2026,
-      "axis": "digital",
+      "axis": "activities",
+      "wps": "WP5",
+      "url": ""
+    },
+    {
+      "name": "Autum Newsletter",
+      "date": "2026-11-08",
+      "month": "10",
+      "year": 2026,
+      "axis": "activities",
+      "wps": "Wp8",
+      "url": ""
+    },
+    {
+      "name": "[TBC] OUNL Rector's Inauguration",
+      "date": "2026-12-15",
+      "month": "11",
+      "year": 2026,
+      "axis": "activities",
+      "wps": "",
+      "url": ""
+    },
+    {
+      "name": "|TBC | Virtual Job Fair",
+      "date": "2027-03-01",
+      "month": "2",
+      "year": 2027,
+      "axis": "activities",
+      "wps": "",
+      "url": ""
+    },
+    {
+      "name": " 7th OpenEU Rectors’ Council Meeting",
+      "date": "2027-01-21",
+      "month": "0",
+      "year": 2027,
+      "axis": "activities",
       "wps": "",
       "url": ""
     }
@@ -558,7 +598,7 @@
     },
     {
       "t": "Drive community growth (Always include CTAs)",
-      "d": "Every communication effort should aim to expand the OpenEU community. Always include in all supports (forms, website, workshops, eg) Calls to Action (CTAs)  directing audiences to subscribe to the newsletter, and follow OpenEU social channels."
+      "d": "Every communication effort should aim to expand the OpenEU community. Always include CTAs in all supports (forms, website, workshops, eg) directing audiences to subscribe to the newsletter, and follow OpenEU social channels."
     },
     {
       "t": "Run the zero-tolerance check",
@@ -667,15 +707,7 @@
       "text": "Have your say on the future of OpenEU. Join the debate on Decidim! {decidim}"
     }
   ],
-  "embeds": [
-    {
-      "title": "Download:",
-      "kind": "calendar",
-      "url": "<iframe src=\"https://calendar.google.com/calendar/embed?src=c_48c6cab19d45bb278aa6303b6feec1fb87afd2cdb434d3b4f86685859f01504a%40group.calendar.google.com&ctz=Europe%2FMadrid\" style=\"border: 0\" width=\"800\" height=\"600\" frameborder=\"0\" scrolling=\"no\"></iframe>",
-      "height": 200,
-      "note": "https://calendar.google.com/calendar/embed?src=c_48c6cab19d45bb278aa6303b6feec1fb87afd2cdb434d3b4f86685859f01504a%40group.calendar.google.com&ctz=Europe%2FMadrid"
-    }
-  ],
+  "embeds": [],
   "universities": [
     {
       "name": "UOC · coordinator",
@@ -827,6 +859,12 @@
   ],
   "axes": [
     {
+      "id": "activities",
+      "label": "OpenEU activities",
+      "color": "purple",
+      "sdg": ""
+    },
+    {
       "id": "digital",
       "label": "Digital transformation and AI",
       "color": "blue",
@@ -843,12 +881,6 @@
       "label": "European values and democracy",
       "color": "pink",
       "sdg": "SDG 16"
-    },
-    {
-      "id": "activities",
-      "label": "OpenEU activities",
-      "color": "purple",
-      "sdg": ""
     }
   ],
   "visContexts": [
@@ -2522,7 +2554,7 @@
   ],
   "officeCards": [
     {
-      "title": "I'm a task leader and need to communicate",
+      "title": "I'm a sub-task leader and need to communicate",
       "text": "A result, an event, a call or a deliverable: what to prepare and who to talk to.",
       "cta": "Open the guide →",
       "target": "roles-tl",
@@ -2539,7 +2571,7 @@
     },
     {
       "title": "Prepare a communication request",
-      "text": "Copy the request template in Drive and choose option A, B or C.",
+      "text": "Copy the request template in Drive, may it helps you!",
       "cta": "Go to the template →",
       "target": "toolkits",
       "url": "",
@@ -2731,6 +2763,20 @@
       "text": "Logos of the OpenEU associated partners.",
       "label": "Open folder →",
       "url": ""
+    }
+  ],
+  "roleLinks": [
+    {
+      "label": "Executive briefing & Communication request form",
+      "target": "url",
+      "url": "https://docs.google.com/document/d/1XI1p44PGHWZRS940bxBu6iwv8wFzcqIwx7j0I0zaKk8/edit?tab=t.0",
+      "style": "primary"
+    },
+    {
+      "label": "Visibility checklist",
+      "target": "visibility",
+      "url": "",
+      "style": "secondary"
     }
   ]
 }
