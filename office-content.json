@@ -8,14 +8,14 @@
     "decidimUrl": "https://openeu.eu/",
     "kpiNote": "Illustrative figures. Replace them with the latest WP8 reporting data.",
     "kpiUpdated": "",
-    "projectTitle": "The project",
+    "projectTitle": "The alliance",
     "projectSubtitle": "OpenEU European Universities Alliance · Grant Agreement 101177241 · Erasmus+ Lump Sum",
     "consortiumTitle": "Consortium",
     "consortiumText": "Ten universities, eight open and distance universities and two face-to-face universities in digital transformation, together serving more than 368,000 students. Coordinated by the Universitat Oberta de Catalunya (UOC).",
     "partnersTitle": "Associated partners",
-    "partnersText": "Universities, associations, networks and organisations that cooperate with OpenEU beyond the ten partner universities.",
+    "partnersText": "",
     "partnersLabel": "See the associated partners",
-    "partnersUrl": "",
+    "partnersUrl": "https://openeu.eu/",
     "governanceTitle": "Governance",
     "axesTitle": "Transversal thematic axes",
     "wpsTitle": "Work packages",
@@ -73,7 +73,7 @@
       "kpis"
     ],
     "navLabel_office": "Office",
-    "navLabel_project": "Project",
+    "navLabel_project": "Alliance",
     "navLabel_narrative": "Narrative",
     "navLabel_roles": "Role guides",
     "navLabel_kpis": "KPIs",
@@ -81,13 +81,31 @@
     "navLabel_calendar": "Calendar",
     "navLabel_toolkits": "Toolkits & templates",
     "navLabel_brand": "Brand kit",
-    "heroTag": "OpenEU · Work Package 8",
+    "heroTag": "OpenEU",
     "heroIllustration": "browser-window",
     "mapTitle": "OpenEU partners across Europe",
     "mapText": "OpenEU builds a reliable and sustainable cooperation between partners and regions: universities, university associations and non-academic partners.",
     "mapImage": "",
     "mapDownload": "Download the map (PNG)",
-    "partnersCaption": "BEYOND THE CONSORTIUM"
+    "partnersCaption": "BEYOND THE CONSORTIUM",
+    "challengesTitle": "Three challenges",
+    "challengesIntro": "Europe’s leading open and distance universities bring together their expertise in digital education, with on-campus institutions and academic, industrial, local and regional partners, to address three main challenges of the European Higher Education Area.",
+    "pitchCaption": "BOILERPLATE · COPY AS IT IS",
+    "pitchTitle": "OpenEU in one paragraph",
+    "pitchText": "The Open European University (OpenEU) alliance is the first pan-European open university: a learner-centred, inclusive, digital and green alliance led by Europe’s leading open and distance universities, together with on-campus institutions and academic, industrial, local and regional partners. It is enhanced by technology and tackles shared challenges through knowledge, education and innovation.",
+    "figuresTitle": "Key figures",
+    "figuresIntro": "Use these figures as they are written, with their reference year.",
+    "groupsTitle": "Who we speak to",
+    "groupsIntro": "OpenEU is open to all learners. These are the groups behind our student body: put one of them at the centre of each story.",
+    "angleLabel": "Story angle:",
+    "argsTitle": "Key arguments",
+    "argsIntro": "Three lines of evidence for policy makers and institutional audiences, including the case for recognising virtual and blended mobility.",
+    "argsSource": "Sources: OpenEU brochure 2026 and “Key data & arguments”.",
+    "euTitle": "EU emblem · Co-funded by the European Union",
+    "euDlLabel": "Download PNG",
+    "euPackLabel": "All formats (EPS, CMYK, JPEG) →",
+    "foldersTitle": "Partner logos",
+    "foldersText": "Download the logos of the partner universities and associated partners. Use them only as agreed with each institution."
   },
   "toolkits": [
     {
@@ -170,6 +188,13 @@
       "note": "Entity and Partner Acronyms, Policies concepts, others.",
       "format": "PDF",
       "url": "https://drive.google.com/drive/folders/14dt4285gj8H0ICBDyk6KQqo5hzKX2O-0"
+    },
+    {
+      "name": "OpenEU brochure 2026",
+      "note": "Alliance presentation: mission, challenges, thematic priorities, key figures and partners.",
+      "format": "PDF",
+      "url": "assets/docs/openeu-brochure-2026.pdf",
+      "file": null
     }
   ],
   "platforms": [
@@ -322,6 +347,15 @@
       "axis": "activities",
       "wps": "",
       "url": ""
+    },
+    {
+      "name": "",
+      "date": "",
+      "month": "9",
+      "year": 2026,
+      "axis": "digital",
+      "wps": "",
+      "url": ""
     }
   ],
   "kpis": [
@@ -369,7 +403,7 @@
   "campaigns": [
     {
       "name": "Campaign 01",
-      "done": false
+      "done": true
     },
     {
       "name": "Campaign 02",
@@ -377,11 +411,11 @@
     },
     {
       "name": "Campaign 03",
-      "done": false
+      "done": true
     },
     {
       "name": "Campaign 04",
-      "done": false
+      "done": true
     },
     {
       "name": "Campaign 05",
@@ -2545,6 +2579,158 @@
     },
     {
       "text": "A CTA to the newsletter, social channels or Decidim"
+    }
+  ],
+  "challenges": [
+    {
+      "title": "Digital transformation of higher education",
+      "text": "Our know-how in digital technologies for learning and teaching, research and innovation, engagement, governance and management puts OpenEU in an ideal position to lead the digital transformation of higher education, scaling up cooperation and knowledge exchange that foster internationalisation and personalisation."
+    },
+    {
+      "title": "Inclusive and equitable higher education",
+      "text": "Our long-standing focus on non-traditional students and underrepresented groups lets OpenEU widen access and participation in higher education and help protect and promote European democratic values."
+    },
+    {
+      "title": "Lifelong learning",
+      "text": "Our experience in online and flexible education commits OpenEU to making lifelong learning a reality, using technology to provide the knowledge and skills needed to meet today’s social, economic and environmental challenges."
+    }
+  ],
+  "keyFigures": [
+    {
+      "value": "+368,000",
+      "label": "Students",
+      "note": "Academic year 2022–2023"
+    },
+    {
+      "value": "84%",
+      "label": "Working and studying",
+      "note": ""
+    },
+    {
+      "value": "36",
+      "label": "Years old on average",
+      "note": ""
+    },
+    {
+      "value": "60%",
+      "label": "Female students",
+      "note": "40% male"
+    },
+    {
+      "value": "11",
+      "label": "Study languages",
+      "note": ""
+    },
+    {
+      "value": "15",
+      "label": "Universities",
+      "note": "Plus 4 university associations and 8 non-academic partners"
+    }
+  ],
+  "targetGroups": [
+    {
+      "title": "Non-traditional students",
+      "text": "Over 25, all genders, working and studying at the same time.",
+      "angle": "Balancing work, family and a degree."
+    },
+    {
+      "title": "Lifelong learners",
+      "text": "People looking for reskilling and upskilling opportunities.",
+      "angle": "Changing careers or staying up to date."
+    },
+    {
+      "title": "Learners worldwide",
+      "text": "Students learning from more than a hundred countries beyond Europe.",
+      "angle": "European education without borders."
+    },
+    {
+      "title": "Learners in rural areas",
+      "text": "Students with difficult access to on-campus higher education institutions.",
+      "angle": "Higher education beyond the cities with universities."
+    },
+    {
+      "title": "Students with disabilities",
+      "text": "Students who choose OpenEU universities for their more inclusive and flexible educational environment.",
+      "angle": "Leaving no one behind."
+    },
+    {
+      "title": "Learners on the move",
+      "text": "Learners who move for professional or personal reasons.",
+      "angle": "A degree that travels with you."
+    }
+  ],
+  "keyArguments": [
+    {
+      "title": "Expanded access to higher education",
+      "text": "Many learners depend on flexible and accessible modalities, so recognising them fully is essential for fair, equitable and inclusive mobility.",
+      "proof": "+368,000 online students across Europe",
+      "color": "blue"
+    },
+    {
+      "title": "Social equity through open education",
+      "text": "Today’s learners are mostly adults, workers and non-traditional online students, which shows the limits of mandatory physical mobility.",
+      "proof": "84% work while they study · 36 years old on average",
+      "color": "pink"
+    },
+    {
+      "title": "Lifelong learning opportunities",
+      "text": "Digital and hybrid learning underpin Europe’s skills, reskilling and upskilling agenda and respond to the growing demand for flexible pathways at every stage of life.",
+      "proof": "Aligned with the Education 2030 agenda and the digital economy",
+      "color": "purple"
+    }
+  ],
+  "euLogos": [
+    {
+      "name": "Horizontal · positive",
+      "bg": "white",
+      "src": "assets/eu/eu-cofunded-horizontal-pos.png",
+      "file": null
+    },
+    {
+      "name": "Vertical · positive",
+      "bg": "white",
+      "src": "assets/eu/eu-cofunded-vertical-pos.png",
+      "file": null
+    },
+    {
+      "name": "Horizontal · negative",
+      "bg": "black",
+      "src": "assets/eu/eu-cofunded-horizontal-neg.png",
+      "file": null
+    },
+    {
+      "name": "Vertical · negative",
+      "bg": "black",
+      "src": "assets/eu/eu-cofunded-vertical-neg.png",
+      "file": null
+    }
+  ],
+  "euRules": [
+    {
+      "title": "Always together.",
+      "text": "Use the emblem with its \"Co-funded by the European Union\" text as one block. Never redraw, recolour, crop or separate them."
+    },
+    {
+      "title": "Positive or negative.",
+      "text": "Positive on white and light backgrounds; negative on black or dark photos."
+    },
+    {
+      "title": "Visible.",
+      "text": "At least the same size as the OpenEU logo, in a prominent place: first page of documents, website footer, start or end of videos."
+    }
+  ],
+  "logoFolders": [
+    {
+      "title": "Partner universities",
+      "text": "Logos of the ten OpenEU partner universities.",
+      "label": "Open folder →",
+      "url": ""
+    },
+    {
+      "title": "Associated partners",
+      "text": "Logos of the OpenEU associated partners.",
+      "label": "Open folder →",
+      "url": ""
     }
   ]
 }
